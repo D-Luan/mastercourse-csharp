@@ -16,3 +16,7 @@ Console.WriteLine(formatedDate);
 //Console.WriteLine(birthday);
 
 Console.WriteLine(DateTime.Now.ToString("MMMM dd, yyyy HH:mm tt zzz"));
+
+string todayOnlyHour = today.ToString("HH:mm");
+
+Console.WriteLine(todayOnlyHour);
